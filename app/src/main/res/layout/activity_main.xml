@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="16dp"
+        android:id="@+id/button_informasi"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/informasi_edukasi_sampah"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:background="#83DEF2">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_informasi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_penjemputan"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/button_informasi"
+        app:layout_constraintStart_toStartOf="@id/button_informasi"
+        app:layout_constraintTop_toBottomOf="@id/button_informasi"
+        android:text="@string/penjemputan_sampah"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:background="#83DEF2">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_penjualan"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/button_penjemputan"
+        app:layout_constraintStart_toStartOf="@id/button_penjemputan"
+        app:layout_constraintTop_toBottomOf="@id/button_penjemputan"
+        android:text="@string/penjualan_pupuk"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:background="#83DEF2">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.informasi.InformationActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_pengenalan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pengenalan_sampah"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/grid_pengenalan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintStart_toStartOf="@+id/tv_pengenalan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pengenalan">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_jenis"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/jenis_jenis_n_sampah"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_manfaat"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/manfaat_nsampah"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pengolahan"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/pengolahan_nsampah"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pemilahan"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/pemilahan_nsampah"/>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tv_dampak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dampak_sampah"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/grid_pengenalan"
+        app:layout_constraintStart_toStartOf="@id/grid_pengenalan"
+        app:layout_constraintTop_toBottomOf="@id/grid_pengenalan"/>
+
+    <GridLayout
+        android:id="@+id/grid_dampak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        app:layout_constraintStart_toStartOf="@+id/tv_dampak"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dampak">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_lingkungan"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/aspek_nlingkungan"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kesehatan"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/aspek_nkesehatan"/>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tv_pemanfaatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemanfaatan_sampah"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/grid_dampak"
+        app:layout_constraintStart_toStartOf="@id/grid_dampak"
+        app:layout_constraintTop_toBottomOf="@id/grid_dampak"/>
+
+    <GridLayout
+        android:id="@+id/grid_pemanfaatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        app:layout_constraintStart_toStartOf="@+id/tv_pemanfaatan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pemanfaatan">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_membuat_pupuk"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/membuat_npupuk"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kegunaan_pupuk"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="@string/kegunaan_npupuk"/>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+info login --> setiap orang bisa log in
+- database
+- IP adress
+- ID user
+- email pass
+
+edukasi, pengenalan sampah
+- mau apa aja kontennya
+- brp banyak
+- halaman2nya mo kyk gmn
+- boleh request mau gmn gmnnya
+- deadline menyusul
+
+penjualan pupuk
+- bukti pembelian (jenis, harga, dikirim kemana)
+- payment emoney blm bisa
+- harga pupuk ditampilin aja
+- kebutuhan : nama, foto, harga persekian
+- sistem : pilih produk, jumlah produk, total biaya, dikirim kemana
+- yg bisa liat pembelian cm 1 akun (akun lembaga sbg admin) : bisa dilihat siapa yg pesan, harganya, dll
+- payment manual diluar apps --> dipertimbangkan
+- pilihan : antar ke rumah / ambil di tempat
+- penjualan pupuk ke luar desa masi bingung di perhitungan ongkir dan kurir
+- sampah anorganik : cuma submit brp banyak sampahnya (internal desa), cuma buat pendataan. kalo ditimbang di TKP gausa lewat aplikasi tp lsg input data lewat lembaga aja. opsi 2 : kalo sampahnya dijemput, penimbangan dan input data dilakukan oleh petugas
+
+harga 
+- harga pupuk : spesifikan per pupuk/paket/per kg
+- harga sampah : gak jadi
+
+tracking driver
+- khusus penjemputan sampah
+- masi harus belajar lagi
+
+penjemputan sampah
+- ngirim notif doang ke admin
+- notif masuk - admin tau siapa namanya dan alamat dimana
+- visualisasinya berupa tombol aja
+- kalo jamnya blm masuk jam buka tombolnya gabisa diklik (keren!!)
+
+jadwal penjemputan
+- informasi open hour hari, jam
+
+biaya pembuatan apps : 
+- ke playstore : 500k, ketika uda masuk playstore harus ada update (tp ga bayar)
+
+web hosting
+- as a database yg bakal dikerjain wafi dan alfadli
+- pengambilan data dilakukan online
+- kalo hosting udah selesai, apps bisa dipake
+- harga : 50k/bulan tp paling minim
+https://idcloudhost.com/
+
+logo
+- butuh extension logo
+
+to do list :
+- deadline materi menyusul
+- meet bareng anak TI lagi : minggu ke-2 juli
+
+teknologi backend
+- database : modb??? sgl???
+- pelajari js express, node
+
+nb. duh maaf kl ada spelling yg salah soalnya gak paham sm istilah IT
+
