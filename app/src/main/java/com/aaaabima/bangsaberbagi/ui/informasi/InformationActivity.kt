@@ -1,11 +1,10 @@
 package com.aaaabima.bangsaberbagi.ui.informasi
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.FragmentManager
-import com.aaaabima.bangsaberbagi.R
+import androidx.appcompat.app.AppCompatActivity
 import com.aaaabima.bangsaberbagi.databinding.ActivityInformationBinding
-import com.aaaabima.bangsaberbagi.ui.informasi.pengenalan.JenisSampahFragment
+import com.aaaabima.bangsaberbagi.ui.informasi.ContentActivity.Companion.EXTRA_FRAGMENT
 
 class InformationActivity : AppCompatActivity() {
     private lateinit var binding: ActivityInformationBinding
@@ -22,15 +21,50 @@ class InformationActivity : AppCompatActivity() {
     }
 
     private fun applyButton() {
+        val intent = Intent(this@InformationActivity, ContentActivity::class.java)
         binding.btnJenis.setOnClickListener {
-            val mFragment = JenisSampahFragment()
-            val mFragmentManager = supportFragmentManager
-            val fragment = mFragmentManager.findFragmentByTag(JenisSampahFragment::class.java.simpleName)
-
-            mFragmentManager
-                .beginTransaction()
-                .add(R.id.frame_layout,mFragment,JenisSampahFragment::class.java.simpleName)
-                .commit()
+            intent.putExtra(EXTRA_FRAGMENT,"Jenis Jenis Sampah")
+            startActivity(intent)
+        }
+        binding.btnManfaat.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT,"Manfaat Sampah")
+            startActivity(intent)
+        }
+        binding.btnPengolahan.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT,"Pengolahan Sampah")
+            startActivity(intent)
+        }
+        binding.btnPemilahan.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT,"Pemilahan Sampah")
+            startActivity(intent)
+        }
+        binding.btnLingkungan.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Aspek Lingkungan")
+            startActivity(intent)
+        }
+        binding.btnKesehatan.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Aspek Kesehatan")
+            startActivity(intent)
+        }
+        binding.btnEkonomi.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Aspek Ekonomi")
+            startActivity(intent)
+        }
+        binding.btnKegunaanPupuk.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Kegunaan Pupuk")
+            startActivity(intent)
+        }
+        binding.btnKreativitasSampah.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Kreativitas Sampah")
+            startActivity(intent)
+        }
+        binding.btnMembuatPupuk.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Membuat Pupuk")
+            startActivity(intent)
+        }
+        binding.btnNilaiEkonomi.setOnClickListener {
+            intent.putExtra(EXTRA_FRAGMENT, "Nilai Ekonomi Sampah")
+            startActivity(intent)
         }
     }
 }

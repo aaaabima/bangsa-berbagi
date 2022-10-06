@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.informasi.pengenalan.JenisSampahFragment">
+    tools:context=".ui.informasi.dampak.AspekEkonomiFragment">
 
     <TextView
-        android:id="@+id/content_jenis"
+        android:id="@+id/content_ekonomi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/jenis_content"/>
+        android:text="@string/ekonomi_content" />
 
 </FrameLayout>

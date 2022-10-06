@@ -1,8 +1,7 @@
 package com.aaaabima.bangsaberbagi.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.aaaabima.bangsaberbagi.R
+import androidx.appcompat.app.AppCompatActivity
 import com.aaaabima.bangsaberbagi.databinding.ActivityPickUpBinding
 
 class PickUpActivity : AppCompatActivity() {

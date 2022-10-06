@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/pengenalan_sampah"
         android:textSize="24sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -63,27 +64,42 @@
         app:layout_constraintStart_toStartOf="@id/grid_pengenalan"
         app:layout_constraintTop_toBottomOf="@id/grid_pengenalan"/>
 
-    <GridLayout
-        android:id="@+id/grid_dampak"
+    <HorizontalScrollView
+        android:id="@+id/hsv_dampak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:columnCount="2"
+        android:fadeScrollbars="true"
         app:layout_constraintStart_toStartOf="@+id/tv_dampak"
         app:layout_constraintTop_toBottomOf="@+id/tv_dampak">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_lingkungan"
-            android:layout_width="150dp"
-            android:layout_height="90dp"
-            android:text="@string/aspek_nlingkungan"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="3">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_kesehatan"
-            android:layout_width="150dp"
-            android:layout_height="90dp"
-            android:text="@string/aspek_nkesehatan"/>
-    </GridLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_lingkungan"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/aspek_nlingkungan"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_kesehatan"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/aspek_nkesehatan"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_ekonomi"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/aspek_nekonomi"/>
+
+        </GridLayout>
+
+    </HorizontalScrollView>
 
     <TextView
         android:id="@+id/tv_pemanfaatan"
@@ -92,30 +108,48 @@
         android:text="@string/pemanfaatan_sampah"
         android:textSize="24sp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@id/grid_dampak"
-        app:layout_constraintStart_toStartOf="@id/grid_dampak"
-        app:layout_constraintTop_toBottomOf="@id/grid_dampak"/>
+        app:layout_constraintEnd_toEndOf="@id/hsv_dampak"
+        app:layout_constraintStart_toStartOf="@id/hsv_dampak"
+        app:layout_constraintTop_toBottomOf="@id/hsv_dampak"/>
 
-    <GridLayout
-        android:id="@+id/grid_pemanfaatan"
-        android:layout_width="match_parent"
+    <HorizontalScrollView
+        android:id="@+id/hsv_pemanfaatan"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:columnCount="2"
         app:layout_constraintStart_toStartOf="@+id/tv_pemanfaatan"
         app:layout_constraintTop_toBottomOf="@+id/tv_pemanfaatan">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_membuat_pupuk"
-            android:layout_width="150dp"
-            android:layout_height="90dp"
-            android:text="@string/membuat_npupuk"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:columnCount="4">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_kegunaan_pupuk"
-            android:layout_width="150dp"
-            android:layout_height="90dp"
-            android:text="@string/kegunaan_npupuk"/>
-    </GridLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_membuat_pupuk"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/membuat_npupuk"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_kegunaan_pupuk"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/kegunaan_npupuk"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_nilai_ekonomi"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/nilai_ekonomi_nsampah"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_kreativitas_sampah"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:text="@string/kreativitas_nsampah"/>
+        </GridLayout>
+
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

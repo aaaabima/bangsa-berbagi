@@ -6,9 +6,9 @@
     tools:context=".ui.informasi.pengenalan.JenisSampahFragment">
 
     <TextView
-        android:id="@+id/content_jenis"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:justificationMode="inter_word"
         android:text="@string/jenis_content"/>
 
 </FrameLayout>

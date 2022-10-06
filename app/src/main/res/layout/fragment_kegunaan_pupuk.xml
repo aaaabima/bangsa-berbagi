@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".ui.informasi.pemanfaatan.KegunaanPupukFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/content_kegunaan_pupuk"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/kegunaan_pupuk_content" />
 
 </FrameLayout>

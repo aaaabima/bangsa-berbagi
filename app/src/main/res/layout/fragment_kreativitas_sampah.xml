@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.informasi.pengenalan.PengolahanSampahFragment">
+    tools:context=".ui.informasi.pemanfaatan.KreativitasSampahFragment">
 
     <TextView
-        android:id="@+id/content_pengolahan"
+        android:id="@+id/content_kreativitas_sampah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pengolahan_content"/>
+        android:text="@string/kreativitas_sampah_content" />
 
 </ScrollView>

@@ -14,17 +14,21 @@
         android:theme="@style/Theme.BangsaBerbagi"
         tools:targetApi="31">
         <activity
-            android:name=".ContentActivity"
-            android:exported="false" />
+            android:name=".ui.informasi.ContentActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.informasi.InformationActivity" />
         <activity
             android:name=".ui.CompostActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.PickUpActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.informasi.InformationActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity"/>
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">

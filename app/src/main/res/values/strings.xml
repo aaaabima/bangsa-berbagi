@@ -15,12 +15,163 @@
     <string name="membuat_npupuk">Membuat\nPupuk</string>
     <string name="kegunaan_npupuk">Kegunaan\nPupuk</string>
     <string name="jenis_content">Sampah dapat dibedakan menjadi 2 jenis :
-\n\nA. Sampah padat (Anorganik)
-\n\nSampah anorganik adalah sampah yang terdiri dari bahan-bahan anorganik. Contoh bahan logam, plastik, kaca, karet, dan kaleng. Sifat sampah anorganik adalah tahan lama dan sukar membusuk.
-Sampah ini tidak mudah diuraikan oleh mikroorganisme tanah. Apabila dibuang sembarangan, sampah anorganik dapat menimbulkan pencemaran tanah.
-\n\nB. Sampah Basah (Organik)
-\n\nSampah organik adalah sampah yang terdiri dari bahan-bahan organik. Sifat sampah organik tidak tahan lama dan cepat membusuk. Biasanya sampah jenis ini berasal dari makhluk hidup. Contohnya sayur-sayuran, buah-buah yang membusuk, sisa nasi, daun, dan sebagainya yang dihasilkan dari rumah.
-Sampah organik mudah diuraikan mikroorganisme tanah. Hanya saja jenis sampah akan menimbulkan bau kurang sedap jika tidak dikelola dengan baik.
+        \n\n<b>1. Sampah padat (Anorganik)</b>
+\n\n\tSampah anorganik adalah sampah yang terdiri dari bahan-bahan anorganik. Contoh bahan logam, plastik, kaca, karet, dan kaleng. Sifat sampah anorganik adalah tahan lama dan sukar membusuk.
+\n\n\tSampah ini tidak mudah diuraikan oleh mikroorganisme tanah. Apabila dibuang sembarangan, sampah anorganik dapat menimbulkan pencemaran tanah.
+        \n\n<b>2. Sampah Basah (Organik)</b>
+\n\n\tSampah organik adalah sampah yang terdiri dari bahan-bahan organik. Sifat sampah organik tidak tahan lama dan cepat membusuk. Biasanya sampah jenis ini berasal dari makhluk hidup. Contohnya sayur-sayuran, buah-buah yang membusuk, sisa nasi, daun, dan sebagainya yang dihasilkan dari rumah.
+\n\n\tSampah organik mudah diuraikan mikroorganisme tanah. Hanya saja jenis sampah akan menimbulkan bau kurang sedap jika tidak dikelola dengan baik.
+</string>
+    <string name="manfaat_content"><b>1. Sampah Padat (Anorganik)</b>
+\n\n- Bahan Kerajinan Tangan
+\n\n\tBerkaitan dengan prinsip pengolahan sampah, sampah anorganik mulai banyak dimanfaatkan sebagai bahan kerajinan tangan. Bahkan, sekolah-sekolah pun banyak yang memberikan pelatihan atau edukasi kepada murid-muridnya untuk membuat prakarya dari bahan dasar sampah.
+\n\n\tTentu, hal ini menjadi terobosan baru di dunia industri kreatif agar membuat inovasi baru untuk mengurangi dampak negatif dari sampah anorganik.
+\n\n- Bahan Daur Ulang
+\n\n\tSeperti yang dijelaskan diatas, salah satu prinsip pengolahan sampah adalah recycle atau daur ulang. Sampah-sampah dapat diolah menjadi barang-barang yang memiliki nilai guna yang lebih tinggi.
+\n\n\tSampah anorganik dapat dimanfaatkan sebagai bahan-bahan daur ulang yang tentunya bermanfaat untuk kehidupan masyarakat.
+\n\n- Dapat Digunakan Kembali
+\n\n\tSampah anorganik merupakan sampah yang lama terurai, penggunaan kembali sampah tentu sangat memungkinkan untuk dilakukan. Sampah-sampah rumah tangga dapat difungsikan menjadi benda lain yang sederhana. Seperti ember cat untuk bak penampungan air dan sebagainya.
+\n\n- Mainan Anak
+\n\n\tManfaat lain dari sampah anorganik adalah dapat dijadikan bahan mainan anak-anak. Jika kita ingin melatih kreativitas anak-anak, ajaklah mereka untuk membuat mainan sendiri dari limbah anorganik yang ada di rumah.
+\n\nTidak perlu menggunakan alat yang rumit, cukup menggunakan peralatan yang ada di rumah. Selain dapat menghasilkan sesuatu, cara ini juga bermanfaat bagi tumbuh kembang anak. Harapannya, anak menjadi lebih kreatif dan lebih peduli dengan lingkungan.
+\n\n- Meningkatkan Pendapatan Ekonomi
+\n\n\tMendapatkan uang dari sampah, mengapa tidak? Inilah salah satu manfaat sampah yang banyak dilupakan. Padahal sampah anorganik yang diolah dengan baik bisa membantu meningkatkan pendapatan ekonomi.
+\n\n\tApalagi jika seseorang berhasil membuat usaha khusus di bidang daur ulang sampah, maka lapangan pekerjaan pun akan bertambah.
+\n\n\tDalam skala kecil, usaha pengepul barang bekas adalah salah satu bentuk usaha sederhana yang memberikan tambahan pemasukan uang. Sampah-sampah anorganik yang dikumpulkan kemudian dijual untuk diolah kembali menjadi barang baru yang lebih layak untuk dipasarkan.
+\n\n\tTidak hanya itu, sampah bisa dijadikan mata pencaharian tetap bagi para pelaku usaha di bidang industri kreatif. Misalnya usaha daur ulang ban bekas menjadi kursi cafe yang unik.
+\n\n\tLebih jauh lagi, usaha ini membutuhkan ahli di bidang pembuatan kursi, sehingga lapangan pekerjaan akan terbuka dan peluang meningkatkan pendapatan ekonomi pribadi akan lebih luas.
+
+        \n\n<b>2. Sampah Basah (Organik)</b>
+\n\n- Menjadi Pupuk Kompos
+\n\n\tPupuk kompos merupakan pupuk alami untuk tanaman. Meski manfaat ini telah diketahui secara luas, nyatanya tidak banyak orang yang memanfaatkan sampah alami ini untuk pupuk kompos. Padahal pengolahan sampah organik menjadi kompos bukanlah hal sulit, hanya saja tahapannya memang harus benar.
+\n\n- Dapat Diolah Menjadi Pakan Ternak
+\n\n\tTidak hanya dimanfaatkan untuk pupuk kompos, sampah yang berasal dari bahan-bahan organis ini ternyata juga bisa dimanfaatkan untuk tambahan pakan ternak.
+\n\n\tBiasanya hal ini diterapkan di pedesaan, para pemilik hewan ternak mencari rumput untuk memenuhi kebutuhan pakan ternak mereka. Selain itu, sisa-sisa makanan juga bisa dimanfaatkan sebagai pakan unggas, ikan, dan lainnya.
+\n\n- Pembuatan Kerajinan Tangan
+\n\n\tBanyak yang mengira jika pemanfaatan sampah untuk kerajinan tangan atau souvenir hanya dapat dilakukan dari sumber sampah anorganik, misalnya plastik. Padahal, sampah organik juga bisa dimanfaatkan untuk membuat kerajinan tangan yang memiliki nilai jual tinggi.
+\n\n\tMisalnya batok kelapa yang diolah menjadi berbagai kerajinan tangan. Tidak hanya itu, sampah kerang-kerangan di pantai juga bisa dimanfaatkan untuk souvenir. Sisa kayu yang sudah tidak terpakai juga bisa diolah menjadi berbagai alat atau benda yang bermanfaat.
+\n\n- Biogas
+\n\n\tManfaat lain dari sampah organik adalah dapat dimanfaatkan menjadi biogas. Sampah dari kotoran hewan, limbah tahu, atau limbah tempe bisa dimanfaatkan untuk membuat biogas karena menghasilkan gas metana.
+\n\n\tBiogas dapat dimanfaatkan untuk keperluan sehari-hari dengan pengolahan yang benar, misalnya memasak dengan kompor berbahan bakar biogas.
+</string>
+    <string name="pengolahan_content"><b>A. Mengolah Limbah Anorganik</b>
+\n\n\tPengelolaan limbah anorganik dapat dilakukan dengan menerapkan sistem 3R (reuse, reduce, dan recyle). Reuse memiliki arti menggunakan kembali sampah anorganik yang masih berfungsi. Reduce berarti mengurangi penggunaan barang sekali pakai. Sedangkan recyle berarti mendaur ulang sampah anorganik menjadi benda-benda bermanfaat dan memiliki nilai baru.
+\n\n\tAda beberapa cara yang bisa dilakukan saat mengelola sampah anorganik yaitu sebagai berikut:
+\n\n1) Mencegah dan Mengurangi Sampah dari Sumbernya
+\n\tMencegah dan mengurangi sampah dari sumbernya bisa dengan melakukan pemilahan atau pemisahan sampah organik dengan anorganik. Pemisahan tersebut bisa dilakukan dengan menyediakan tempat sampah khusus untuk setiap jenis sampah yang berbeda.
+\n\n2) Pemanfaatan Kembali
+\n\tCara mengolah sampah anorganik berikutnya yaitu dengan memanfaatkan kembali produk tersebut. Misalnya dengan menggunakan kertas hasi daur ulang atau membuat aneka kerajinan dari sampah plastik.
+\n\n3) Sanitary Landfill
+\n\tSanitary landfill adalah usaha pemusnahan sampah dengan acra mengisolasi sampah di dalam tanah hingga terjadi degradasi fisik, kimiawi, maupun biologi.
+\n\n4) Insinerasi
+\n\tInserasi merupakan proses pembakaran sampah padat menajdi abu, gas, dan energi panas.
+\n\n5) Bioremediasi
+\n\tBioremedasi merupakan proses penghilangan zat kontaminan dengan bantuan makhluk hidup seperti bakteri, archae, fungi, dan tumbuhan.
+\n\n<b>B. Bank Sampah</b>
+\n\n\tBank sampah menjadi salah satu upaya pemerintah dalam mengurangi tumpukan sampah anorganik. Dengan berpegang pada prinsip 3R, kehadiran bank sampah mampu memberikan peluang menabung sekaligus menjaga lingkungan dari dampak buruk limbah anorganik. Secara umum sistem bank sampah di Indonesia dibagi menajdi tiga tahap yakni pemilihan sampah, penyortiran, dan penjualan sampah.
+\n\n1) Pemilahan
+\n\tDi tahap ini sampah dipisahkan menjadi dua kategori, yakni organik dan anorganik. Sampah dipilah kembali dalam beberapa jenis yaitu kertas, botol, lastik maupun besi. Sampah organik diolah menjadi pupuk kompos sementara sampah anorganik inilah yang disetor ke bank sampah.
+\n\n2) Penyortiran
+\n\tSetelah sampah anorganik terkumpul sampah bisa langsung disetor ke bank sampah terdekat yang nantinya dikategorikan sebagai deposit atau semacam uang yang disetor ke bank konvensional.
+\n\n3) Penjualan
+\n\tSampah akan ditimbang di bank sampah dan dikonversikan ke dalam bentuk uang ke rekening bank sampah. Harga sampah di setiap bank sampah bisa berbeda-beda bergantung ketentuan masing-masing bank sampah.
+        \n\n<b>C. Mengolah Sampah Organik menjadi Pupuk Kompos</b>
+\n\n1) Pengolahan (pencacahan) dilakukan sore hari
+\n2) Sampah yang baru dicacah diletakkan di rumah kompos dengan cara diletakkan di atas anyaman bambu, bagian bawah anyaman bambu diberi paving (agar ada ruang sehingga air hasil pengomposan mengalir ke saluran limbah cair)
+\n3) Sampah yang telah di cacah diberikemudian diberi cairan starter (EM-4) yang mengandung mikroba melalui alat penyiram gembor hingga basah
+\n4) Sampah yang dicacah di hari pertama hingga keempat ditumpuk menjadi satu
+\n5) Di inkubasi dilakukan selama kurang lebih 12-14 hari
+\n6) Setiap hari diaduk supaya pembusukan merata
+\n7) Volume sampah akan menyusut kurang lebih menjadi ⅓ atau ¼ dari volume awal, hal ini bergantung jenus sayurannya
+\n8) Sayuran dengan kadar air tinggi akan lebih sedikit menjadi kompos, misalnya kubis
+\n9) Warna sampah berubah dari hijau menajdi cokelat kehitaman
+\n10) Selama terjadi pembusukkan dihasilkan limbah cair
+\n11) Limbah cair ditampung dalam tong yang diletakkan di muka rumah kompos dan dipendam di dalam tanah
+\n12) Limbah cair dapat digunakan lagi sebagai starter mikrobia pengganti EM-4 yang awalnya beli di toko pertanian
+\n13) Limbah cair yang akan digynakan sebagai starter harus diberi gula pasir dan air sisa cucian beras supaya mikrobanya aktif
+\n14) Kompos yang telah matang berwarna cokelat kehitaman masih mengandung air
+\n15) Oleh sebab itu perlu dikeringkan dengan cara diangin-anginkan selama kurang lebih 1-2 hari bergantung cuaca
+\n16) Kompos masih berukuran besar, perlu dicacah lagi dengan alat pencacah yang sama supaya lebih halus
+\n17) Setelah dicacah, disaring lalu siap dipacking
+\n18) Produksi pupuk kompos sekali panen bergantung jumlah sampah yang diolah
+\n19) Hasil kompos sekali panen berkisar antara 30-40 kantong plastik ukuran 22 x 30 cm,, berat 2 kg, dijual satu bungkus seharga Rp 3.000
+\n20) Panen kompos dapat dilakukan 2-3 kali dalam sebulan
+</string>
+    <string name="pemilahan_content"><b>1. Sampah Organik</b>
+\n\n\tJenis sampah basah seperti sisa makanan, kulit buah, dan sayuran ini dapat dipilah dengan mengumpulkannya di suatu wadah khusus atau menguburkannya ke dalam tanah. Bisa juga dimanfaatkan kembali seperti kulit buah yang dijadikan eco-enzyme, sisa sayur menjadi veggie stock hingga mengubahnya ke dalam tanah, tanam kembali (regrow) sisa sayuran seperti daun bawang, seledri, pokcoy atau kangkung, berikan ke hewan peliharaan (kucin atau anjing), masukkan ke biopori (bila ada). \n\n\tSampah organik ini terdiri dari 2 kategori yaitu sampah organik basah dan sampah organik kering. Kategori sampah organik basah diantaranya kuah, kaldu, tulang belulang, atau sisa makanan lain yang mengandung air. Sedangkan kategori sampah organik kering diantaranya dedaunan, ranting, kulit buah, dan sayuran yang belum dimasak seperti daun bawang, seledri, pokcoy, kangkung, dan sampah organik kering lainnya.
+        \n\n<b>2. Sampah Anorganik</b>
+\n\n\tSebelum didaur ulang sampah plastik, kaleng, botol, dan gelas perlu dipisahkan dan dipilah dengan benar. Terlebih dahulu mencuci setiap kemasan tersebut hingga bersih dan kering untuk kemudian dibawa ke bank sampah agar dapat didaur ulang dengan mudah. Jika ingin memanfaatkannnya sendiri, dapat menggunakan kembali plastik, kaleng, dan gelas bekas yang telah bersih sebagai wadah penyimpanan hingga pot tanaman.
+        \n\n<b>3. Sampah Elektronik dan B3</b>
+\n\n\tCara memilah sampah eletronik dan sampah B3 yang telah rusak dan tidak lagi bisa digunakan adalah dengan tidak membuangnya langsung ke tempat sampah. Dapat membawanya ke bank sampah khusus limbah eletronik (e-waste). Bisa dikumpulkan dan tanyakan ke puskesmas dan rumah sakit terdekat apakah bisa menerima obat kadaluwarsa untuk dibuang atau dibakar secara aman tanpa mencemari lingkungan. Biasanya akan dikenakan sedikit biaya ats pengolahan ini.
+        \n\n<b>4. Sampah Obat-obatan</b>
+\n\n\tObat-obatan yang sudah kadaluwarsa dapat dipilah untuk tidak langsung dibuang ke tempat sampah biasa. Dapat membawa obat-obat kadaluwarsa ke puskesmas atau rumah sakit terdekat untuk jenis sampah ini dibakar atau dimusnahkan demi menghindari penyalahgunaan.
+        \n\n<b>5. Sampah Pembalut dan Diaper sekali pakai</b>
+\n\n\tPembalut dan diaper sekali pakai akan terurai dalam waktu yang sangat lama bahkan membutuhkan waktu yang lebih lama daripada botol plastik (ratusan hingga ribuan tahun). Maka dari itu, anjuran untuk menggunakan reusable menstrual pads atau menstrual cup sangat dianjurkan serta menggunakan clodi sebagai pengganti diaper sekali pakai.
+</string>
+    <string name="lingkungan_content">\tMasalah lingkungan menjadi hal yang sangat krusial. Selain global warming, masalah sampah menjadi salah satu tema yang sering dibahas.
+    \n\n\tContoh yang pertama adalah maraknya bencana alam akibat penumpukan sampah anorganik. Sebut saja banjir, yang hampir setiap tahun terjadi. Penyebabnya tidak lain adalah penumpukan sampah yang mengakibatkan aliran air sungai menjadi tersumbat. Akibatnya, debit air yang bertambah akan meluap karena tidak memiliki jalan lagi untuk mengalir.
+    \n\n\tContoh lainnya adalah dapat menyebabkan pencemaran air. Mau tidak mau, sampah apapun yang masuk ke dalam air akan membuat air menjadi tercemar. Jika air sudah tercemar, maka kebersihan dan kesehatan air tidak lagi terjaga.
+    \n\n\tBelum lagi permasalahan sampah yang memengaruhi tampilan estetika. Mulai dari fasilitas-fasilitas kota yang kotor dan tidak terawat, hingga daerah-daerah kumuh akibat tumpukan sampah.
+    </string>
+    <string name="kesehatan_content">\tSiapa bilang sampah anorganik hanya mengotori lingkungan? Lebih dari itu, ternyata keberadaannya dapat meningkatkan risiko gangguan kesehatan, baik dari fisik sampah, maupun dari proses pembuatannya sendiri.
+\n\n\tSebagai contoh, sampah anorganik seperti kaleng dan botol plastik dapat terisi air hujan dan menjadi habitat nyamuk untuk berkembang biak. Bukan tidak mungkin, jika nyamuk yang berkembang biak di lingkungan sekitar adalah jenis nyamuk yang berbahaya, seperti nyamuk demam berdarah.
+\n\n\tContoh lainnya adalah, bahan dan proses pembuatan kaleng dan plastik itu sendiri. Plastik mengandung bahan-bahan sintetis yang tidak aman bagi manusia. Salah satunya adalah dioksin, bahan ini dapat menyebabkan bermacam masalah kesehatan, mulai dari gangguan saraf hingga penyakit kanker.
+\n\n\tBau yang ditimbulkan dari area pembuangan sampah juga dapat mengganggu pernafasan manusia. Khususnya yang tinggal di sekitar tempat pembuangan sampah.
+</string>
+    <string name="ekonomi_content">\tSampah menjadi masalah yang tak kunjung selesai dihadapi oleh siapapun itu. Bahkan banyak dampak yang ditimbulkan akibat dari pembuangan sampah. Berbagai aspek terpengaruhi oleh adanya sampah yang tak terorganisir dengan baik. Tidak terkecuali pada aspek ekonomi desa pun sampah meninggalkan jejaknya. Sampah menimbulkan banyak kerugian bagi perekonomian desa disebabkan membuat lingkungan menjadi kotor dan menghambat pertumbuhan pembangunan desa akibat penumpukan sampah yang tak terurus oleh pihak berwenang.
+\n\n\tSampah pun menjadi faktor penghambat bagi sektor pariwisata desa yang memiliki potensi untuk dikembangkan dan dibudidayakan. Hal ini membuat pemasukan bagi desa terhalang akibat adanya masalah sampah di wilayah tersebut. Sehingga pembangunan desa pun menjadi terhambat untuk direalisasikan
+    </string>
+    <string name="kegunaan_pupuk_content">1. Kompos dapat meningkatkan kesuburan tanah.
+\n2. Kompos membantu memperbaiki karakteristik dan struktur tanah.
+\n3. Kompos membantu meningkatkan aktivitas mikroba pada tanah.
+\n4. Kompos membantu meningkatkan daya serap air tanah.
+\n5. Kompos membantu meningkatkan kualitas hasil panen.
+\n6. Kompos membantu menyediakan unsur hara pada tanah.
+\n7. Kompos membuat tanah menjadi lebih gembur dan tidak keras.
+\n8. Kompos menekan pertumbuhan penyakit tanaman.
+\n9. Kompos menyediakan vitamin dan juga hormon yang dibutuhkan oleh tanaman.
+</string>
+    <string name="kreativitas_sampah_content"><b>1. Kerajinan Tas Plastik</b>
+\n\n\tPemanfaatan limbah plastik menjadi sebuah produk yang dapat digunakan oleh masyarakat adalah misi utama kerajinan tas plastic. Hal yang melatarbelakangi kerajinan ini adalah banyaknya masyarakat yang menggunakan bahan plastic dan perkembangan industri yang menghasilkan plastic.
+\n\n\tKepedulian  akan limbah plastik ini merupakan sebuah wujud kepedulian mereka dalam menjaga lingkungan agar tetap bersih. Selain itu menggunakan bahan plastik menjadi tas dapat memberikan nilai tambah untuk mengasah kreativitas masyarakat membentuk tas dengan berbagai macam varian.
+        \n\n<b>2. Koran menjadi Barang Pakai</b>
+\n\n\tPemanfaatan koran bekas tersebut bisa menghasilkan barang siap pakai. Adapun barang yang dihasilkan dari Koran yaitu tatakan guci, mangkok dan lain-lain.
+        \n\n<b>3. Produk Sampah dari Rumah Tangga</b>
+\n\n\tTentunya dengan memanfaatkan barang bekas dari rumah tangga selain dapat mengurangi bencana juga dapat meningkatkan perekonomian. Seperti botol bekas yang dijadikan celengan dan berbagai macam produk lainnya.
+        \n\n<b>4. Pembangkit Listrik dari Sampah</b>
+\n\n\tPembuatan pembangkit listrik dengan memanfaatkan tenaga panas dari pembakaran sampah sebagai wujud kepedulian terhadap lingkungan. Sistem kerja yang dilakukan untuk menghasilkan pembangkit listrik ini yaitu dilakukan dengan pembakaran sampah yang kemudian dikonversi menjadi energy listrik. Sedangkan alat yang digunakan yaitu termoelektrik yang menghasilkan listrik apabila ada perbedaan panas pada kedua sisinya. Tegangan yang didapatkan dari penemuan tersebut yaitu 5 volt. Dalam proses dari tenaga sampah sehingga dapat menghasilkan tenaga listrik membutuhkan waktu tiga bulan.
+</string>
+    <string name="membuat_pupuk_content"><b>A. Alat</b>
+\n- Tong/ember yang sudah dilubangi tutupnya
+\n- Pipa berlubang
+\n- Alat pengaduk
+\n- Termometer
+\n- pH meter
+\n- Sprayer
+\n- Gelas ukur
+\n- Pisau
+\n- Kain Bekas
+        \n\n<b>B. Bahan</b>
+\n- Sampah organik basah
+\n- Sampah organik kering
+\n- EM4
+\n- Air
+        \n\n<b>C. Proses pengolahan</b>
+\n1. Siapkan alat dan bahan yang dibutuhkan
+\n2. Cacah/potong-potong sampah organik sekecil mungkin
+\n3. Tempatkan pipa berlubang ke dalam ember untuk sirkulasi udara
+\n4. Masukan sampah organik basah dan kering dengan perbandingan 3:1
+\n5. Masukan sampah organik kering terlebih dahulu
+\n6. Lalu timbun dengan sampah organik basah
+\n7. Timbun kembali dengan sampah organik kering dan buat berlapis-lapis hingga hampir penuh
+\n8. Semprot setiap lapisan dengan larutan EM4 dengan takaran 30 ml/liter
+\n9. Tutup ember dan pipa dengan penutup agar tidak ada lalat yang bertelur
+\n10. Aduk kompos seminggu sekali
+\n11. Jika kelembapan kompos menurun maka semprot kembali dengan larutan EM4
+\n12. Proses pengomposan akan berlangsung selama 1 – 2 bulan
+</string>
+    <string name="nilai_ekonomi_content"><b>Nilai Ekonomi Sampah Berdasarkan Jenis Sampah</b>
+\n\n\tLangkah-langkah perhitungan nilai ekonomi sampah perumahan yaitu sampah dipisahkan anorganik dan organik, sampah perumahan dipilah menurut jenis-jenis yang telah ditentukan, jumlah massa sampah yang terjual menurut jenisnya dicatat per hari, sampah dinilai kelayakannya, sampah yang layak jual ditimbang dan nilai ekonomi sampah tersebut dihitung. Berikut merupakan harga-harga yang laku dijual di Bank Sampah Rosella:
 </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -115,4 +266,20 @@ Sampah organik mudah diuraikan mikroorganisme tanah. Hanya saja jenis sampah aka
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="aspek_nekonomi">Aspek\nEkonomi</string>
+    <string name="nilai_ekonomi_nsampah">Nilai Ekonomi\nSampah</string>
+    <string name="kreativitas_nsampah">Kreativitas\nSampah</string>
+    <string name="kardus">Kardus</string>
+    <string name="rp_1_100_kg">Rp 1.100/kg</string>
+    <string name="koran">Koran</string>
+    <string name="rp_800_kg">Rp 800/kg</string>
+    <string name="kertas_putih">Kertas Putih</string>
+    <string name="kertas_kulit">Kertas Kulit</string>
+    <string name="rp_200_kg">Rp 200/kg</string>
+    <string name="botol">Botol</string>
+    <string name="rp_800_buah">Rp 800/buah</string>
+    <string name="gelas_aqua">Gelas Aqua</string>
+    <string name="kaleng">Kaleng</string>
+    <string name="rpp_8_000_kg">Rpp 8.000/kg</string>
+    <string name="botol_plastik_berwarna">Botol Plastik Berwarna</string>
 </resources>
