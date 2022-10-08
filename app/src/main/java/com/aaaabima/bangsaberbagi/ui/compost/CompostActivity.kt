@@ -22,4 +22,6 @@ class CompostActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
 }
