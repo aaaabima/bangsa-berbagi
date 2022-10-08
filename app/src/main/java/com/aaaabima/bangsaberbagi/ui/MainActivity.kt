@@ -1,10 +1,12 @@
 package com.aaaabima.bangsaberbagi.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.aaaabima.bangsaberbagi.databinding.ActivityMainBinding
+import com.aaaabima.bangsaberbagi.ui.compost.CompostActivity
 import com.aaaabima.bangsaberbagi.ui.informasi.InformationActivity
+import com.aaaabima.bangsaberbagi.ui.pickup.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -24,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.buttonPenjemputan.setOnClickListener {
-            val intent = Intent(this@MainActivity, PickUpActivity::class.java)
+            val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
         }
         binding.buttonPenjualan.setOnClickListener {

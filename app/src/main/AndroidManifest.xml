@@ -3,32 +3,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.aaaabima.bangsaberbagi">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_bangsa_berbagi"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_bangsa_berbagi_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BangsaBerbagi"
         tools:targetApi="31">
+        <activity
+            android:name=".ui.pickup.LoginActivity"
+            android:parentActivityName=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pickup.RegisterActivity"
+            android:parentActivityName=".ui.pickup.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.compost.AvailableCompostActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.informasi.ContentActivity"
             android:exported="false"
             android:parentActivityName=".ui.informasi.InformationActivity" />
         <activity
-            android:name=".ui.CompostActivity"
+            android:name=".ui.compost.CompostActivity"
             android:exported="false"
             android:parentActivityName=".ui.MainActivity" />
         <activity
-            android:name=".ui.PickUpActivity"
+            android:name=".ui.pickup.PickUpActivity"
             android:exported="false"
             android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.informasi.InformationActivity"
             android:exported="false"
-            android:parentActivityName=".ui.MainActivity"/>
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">

@@ -117,6 +117,5 @@ class ContentActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_FRAGMENT = "extra_fragment"
-        const val TAG = "ContentActivity"
     }
 }

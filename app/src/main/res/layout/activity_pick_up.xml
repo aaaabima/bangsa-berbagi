@@ -1,18 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.PickUpActivity">
+    tools:context=".ui.pickup.PickUpActivity">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/penjemputan_sampah"/>
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/nama"
+            app:layout_constraintStart_toStartOf="@+id/tv_nama"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pickup_ed_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_notelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nomor_telepon"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/textInputLayout1"
+            app:layout_constraintStart_toStartOf="@id/textInputLayout1"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayout1" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/nomor_telepon"
+            app:layout_constraintStart_toStartOf="@+id/tv_notelp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_notelp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pickup_ed_notelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alamat_lengkap"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/textInputLayout2"
+            app:layout_constraintStart_toStartOf="@id/textInputLayout2"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayout2" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/alamat_lengkap"
+            app:layout_constraintStart_toStartOf="@+id/tv_alamat"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alamat">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pickup_ed_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_catatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/catatan"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/textInputLayout3"
+            app:layout_constraintStart_toStartOf="@id/textInputLayout3"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayout3" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/catatan"
+            app:layout_constraintStart_toStartOf="@+id/tv_catatan"
+            app:layout_constraintTop_toBottomOf="@+id/tv_catatan">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pickup_ed_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_jenis_sampah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_sampah"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/textInputLayout4"
+            app:layout_constraintStart_toStartOf="@id/textInputLayout4"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayout4" />
+
+        <RadioGroup
+            android:id="@+id/rg_jenis_sampah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@id/tv_jenis_sampah"
+            app:layout_constraintEnd_toEndOf="@id/tv_jenis_sampah"
+            app:layout_constraintTop_toBottomOf="@id/tv_jenis_sampah">
+
+            <RadioButton
+                android:id="@+id/sampah_anorganik"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/anorganik"/>
+
+            <RadioButton
+                android:id="@+id/sampah_organik"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/organik"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_hari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hari_jemput"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/rg_jenis_sampah"
+            app:layout_constraintStart_toStartOf="@id/rg_jenis_sampah"
+            app:layout_constraintTop_toBottomOf="@id/rg_jenis_sampah" />
+
+        <RadioGroup
+            android:layout_marginTop="8dp"
+            android:id="@+id/rg_hari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@id/tv_hari"
+            app:layout_constraintEnd_toEndOf="@id/tv_hari"
+            app:layout_constraintTop_toBottomOf="@id/tv_hari">
+
+            <RadioButton
+                android:id="@+id/sabtu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sabtu"/>
+
+            <RadioButton
+                android:id="@+id/minggu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/minggu"/>
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/konfirmasi"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:background="#83DEF2"
+            app:layout_constraintEnd_toEndOf="@id/rg_hari"
+            app:layout_constraintStart_toStartOf="@id/rg_hari"
+            app:layout_constraintTop_toBottomOf="@id/rg_hari" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
