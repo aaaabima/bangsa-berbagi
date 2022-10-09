@@ -145,22 +145,20 @@
             <RadioButton
                 android:checked="true"
                 android:id="@+id/sampah_anorganik"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anorganik"/>
 
             <RadioButton
                 android:id="@+id/sampah_organik"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
                 android:text="@string/organik"/>
 
             <RadioButton
                 android:id="@+id/sampah_both"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
                 android:text="@string/organik_dan_anorganik"/>
         </RadioGroup>
 

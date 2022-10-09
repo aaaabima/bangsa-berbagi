@@ -1,5 +1,7 @@
-# Bangsa Berbagi
+# Bangsa Berbagi  
+
 Projek yang didedikasikan untuk desa Jatimukti dalam program PPK Ormawa Badan Eksekutif Mahasiswa Fakultas Keperawatan Universitas Padjadjaran. 
+
 --- 
 ## Features
 A. Informasi dan Edukasi Sampah 
@@ -8,10 +10,12 @@ Anda dapat mengakses berbagai informasi mengenai sampah seperti jenis, pemanfaat
 B. Penjemputan Sampah 
 Fitur internal yang hanya dapat digunakan oleh warga desa Jatimukti untuk menjual sampah ke lembaga Bank Sampah.
 
-C. Penjualan Pupuk
+C. Penjualan Pupuk  
 Fitur ini dapat diakses oleh siapapun yang ingin membeli pupuk dari desa Jatimukti.
+
 --- 
-## Tech Stack
+
+## Tech Stack  
 - [Kotlin](https://kotlinlang.org/)
 --- 
 ### License
