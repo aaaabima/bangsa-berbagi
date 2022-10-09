@@ -16,13 +16,22 @@
         android:theme="@style/Theme.BangsaBerbagi"
         tools:targetApi="31">
         <activity
+            android:name=".ui.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ui.pickup.LoginActivity"
-            android:parentActivityName=".ui.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.pickup.RegisterActivity"
-            android:parentActivityName=".ui.pickup.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.pickup.LoginActivity" />
         <activity
             android:name=".ui.compost.AvailableCompostActivity"
             android:exported="false" />
@@ -44,12 +53,7 @@
             android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
         </activity>
     </application>
 

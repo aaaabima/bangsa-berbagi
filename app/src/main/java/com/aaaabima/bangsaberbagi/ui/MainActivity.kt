@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.aaaabima.bangsaberbagi.databinding.ActivityMainBinding
 import com.aaaabima.bangsaberbagi.ui.compost.CompostActivity
 import com.aaaabima.bangsaberbagi.ui.informasi.InformationActivity
-import com.aaaabima.bangsaberbagi.ui.pickup.LoginActivity
+import com.aaaabima.bangsaberbagi.ui.pickup.PickUpActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.buttonPenjemputan.setOnClickListener {
-            val intent = Intent(this@MainActivity, LoginActivity::class.java)
+            val intent = Intent(this@MainActivity, PickUpActivity::class.java)
             startActivity(intent)
         }
         binding.buttonPenjualan.setOnClickListener {

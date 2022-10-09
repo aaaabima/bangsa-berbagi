@@ -32,24 +32,32 @@
             android:id="@+id/btn_jenis"
             android:layout_width="150dp"
             android:layout_height="90dp"
+            android:textColor="@color/black"
+            android:background="#83DEF2"
             android:text="@string/jenis_jenis_n_sampah"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_manfaat"
             android:layout_width="150dp"
             android:layout_height="90dp"
+            android:textColor="@color/black"
+            android:background="#83DEF2"
             android:text="@string/manfaat_nsampah"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_pengolahan"
             android:layout_width="150dp"
             android:layout_height="90dp"
+            android:textColor="@color/black"
+            android:background="#83DEF2"
             android:text="@string/pengolahan_nsampah"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_pemilahan"
             android:layout_width="150dp"
             android:layout_height="90dp"
+            android:textColor="@color/black"
+            android:background="#83DEF2"
             android:text="@string/pemilahan_nsampah"/>
     </GridLayout>
 
@@ -83,18 +91,24 @@
                 android:id="@+id/btn_lingkungan"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/aspek_nlingkungan"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_kesehatan"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/aspek_nkesehatan"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_ekonomi"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/aspek_nekonomi"/>
 
         </GridLayout>
@@ -129,24 +143,32 @@
                 android:id="@+id/btn_membuat_pupuk"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/membuat_npupuk"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_kegunaan_pupuk"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/kegunaan_npupuk"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_nilai_ekonomi"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/nilai_ekonomi_nsampah"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_kreativitas_sampah"
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="#83DEF2"
                 android:text="@string/kreativitas_nsampah"/>
         </GridLayout>
 

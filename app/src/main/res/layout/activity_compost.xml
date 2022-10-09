@@ -10,9 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp">
+        android:padding="16dp">
 
         <TextView
             android:id="@+id/tv_nama"
@@ -120,6 +118,7 @@
                 android:id="@+id/compost_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="@string/pupuk_500g_seharga_rp_5_000"/>
 
             <RadioButton
@@ -142,36 +141,37 @@
 
         </RadioGroup>
 
-        <TextView
-            android:id="@+id/tv_total"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/total"
-            android:textSize="24sp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toEndOf="@id/rg_jenis_compost"
-            app:layout_constraintStart_toStartOf="@id/rg_jenis_compost"
-            app:layout_constraintTop_toBottomOf="@id/rg_jenis_compost" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv_total"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/total"-->
+<!--            android:textSize="24sp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/rg_jenis_compost"-->
+<!--            app:layout_constraintStart_toStartOf="@id/rg_jenis_compost"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/rg_jenis_compost" />-->
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout5"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintStart_toStartOf="@+id/tv_total"
-            app:layout_constraintTop_toBottomOf="@+id/tv_total">
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/textInputLayout5"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/tv_total"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_total">-->
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/add_ed_total"
-                android:enabled="false"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/total"/>
-        </com.google.android.material.textfield.TextInputLayout>
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/add_ed_total"-->
+<!--                android:enabled="false"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/total"/>-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
 
         <ImageView
+            android:id="@+id/iv_whatsapp"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/ic_whatsapp_logo"
@@ -190,9 +190,9 @@
             android:text="@string/konfirmasi_ke_whatsapp"
             android:textColor="#00a859"
             android:textSize="14sp"
-            app:layout_constraintEnd_toEndOf="@id/textInputLayout5"
-            app:layout_constraintStart_toStartOf="@id/textInputLayout5"
-            app:layout_constraintTop_toBottomOf="@id/textInputLayout5" />
+            app:layout_constraintEnd_toEndOf="@id/rg_jenis_compost"
+            app:layout_constraintStart_toStartOf="@id/rg_jenis_compost"
+            app:layout_constraintTop_toBottomOf="@id/rg_jenis_compost" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
