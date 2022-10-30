@@ -19,7 +19,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://localhost:3000")
+                .baseUrl("http://api-ppk.invits.co/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

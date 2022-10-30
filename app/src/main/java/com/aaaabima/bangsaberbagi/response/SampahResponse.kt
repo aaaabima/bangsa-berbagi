@@ -13,8 +13,8 @@ data class SampahResponse(
 
 data class SampahData(
 
-	@field:SerializedName("status_description")
-	val statusDescription: Any? = null,
+	@field:SerializedName("address_notes")
+	val addressNotes: String? = null,
 
 	@field:SerializedName("address")
 	val address: String? = null,
@@ -25,17 +25,8 @@ data class SampahData(
 	@field:SerializedName("sampah_category")
 	val sampahCategory: String? = null,
 
-	@field:SerializedName("created_at")
-	val createdAt: String? = null,
-
-	@field:SerializedName("deleted_at")
-	val deletedAt: Any? = null,
-
-	@field:SerializedName("address_notes")
-	val addressNotes: String? = null,
-
 	@field:SerializedName("updated_at")
-	val updatedAt: Any? = null,
+	val updatedAt: String? = null,
 
 	@field:SerializedName("user_id")
 	val userId: String? = null,
@@ -43,12 +34,12 @@ data class SampahData(
 	@field:SerializedName("name")
 	val name: String? = null,
 
+	@field:SerializedName("created_at")
+	val createdAt: String? = null,
+
 	@field:SerializedName("phone_number")
 	val phoneNumber: String? = null,
 
 	@field:SerializedName("id")
-	val id: String? = null,
-
-	@field:SerializedName("status")
-	val status: String? = null
+	val id: String? = null
 )

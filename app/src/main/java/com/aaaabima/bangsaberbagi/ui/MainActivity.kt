@@ -8,7 +8,7 @@ import com.aaaabima.bangsaberbagi.ui.compost.CompostActivity
 import com.aaaabima.bangsaberbagi.ui.informasi.InformationActivity
 import com.aaaabima.bangsaberbagi.ui.pickup.PickUpActivity
 
-class MainActivity : AppCompatActivity() {
+class  MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

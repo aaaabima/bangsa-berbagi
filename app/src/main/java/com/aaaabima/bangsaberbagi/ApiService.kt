@@ -14,10 +14,10 @@ interface ApiService {
         @Field("name") name: String,
         @Field("email") email: String,
         @Field("password") password: String,
+        @Field("c_password") c_password: String,
         @Field("phone_number") phone_number: String,
         @Field("rt") rt: String,
         @Field("rw") rw: String,
-        @Field("region") alamat: String
     ): Call<RegisterResponse>
 
     @FormUrlEncoded
@@ -27,22 +27,15 @@ interface ApiService {
         @Field("password") password: String
     ): Call<LoginResponse>
 
-    @POST("logout")
-    fun logout(
-        @Header("Authorization") token: String,
-    )
-
     @FormUrlEncoded
     @POST("v2/pupuk")
     fun postPupukOrder(
-        @Header("Authorization") token: String,
         @Field("name") name: String,
         @Field("phone_number") phone_number: String,
         @Field("address") alamat: String,
-        @Field("quantity") quantity: String,
-        @Field("total_price") total_price: String,
+        @Field("quantity") quantity: Int,
+        @Field("total_price") total_price: Int,
         @Field("status") status: String,
-        @Field("status_description") status_description: String,
     ): Call<PupukResponse>
 
     @FormUrlEncoded
@@ -57,10 +50,4 @@ interface ApiService {
         @Field("schedule_pickup") day: String,
         @Field("user_id") id: String,
     ): Call<SampahResponse>
-
-    @GET("users/{id}")
-    fun getId(
-        @Header("Authorization") token: String,
-        @Path("id") id: String
-    )
 }

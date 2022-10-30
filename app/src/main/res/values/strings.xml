@@ -306,11 +306,11 @@
     <string name="sudah_memiliki_akun">Sudah memiliki akun?</string>
     <string name="catatan">Catatan</string>
     <string name="jenis_sampah">Jenis Sampah</string>
-    <string name="anorganik">Anorganik</string>
-    <string name="organik">Organik</string>
-    <string name="sabtu">Sabtu</string>
-    <string name="minggu">Minggu</string>
+    <string name="anorganik">ANORGANIK</string>
+    <string name="organik">ORGANIK</string>
+    <string name="sabtu">SABTU</string>
+    <string name="minggu">MINGGU</string>
     <string name="hari_jemput">Hari Jemput</string>
     <string name="konfirmasi">Konfirmasi</string>
-    <string name="organik_dan_anorganik">Organik dan Anorganik</string>
+    <string name="organik_dan_anorganik">ORGANIK DAN ANORGANIK</string>
 </resources>

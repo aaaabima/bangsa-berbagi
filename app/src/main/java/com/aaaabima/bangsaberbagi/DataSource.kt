@@ -66,8 +66,8 @@ class DataSource private constructor(private val pref: UserPreferences) {
         })
     }
 
-    fun postPupukOrder(token: String, name: String, phone_number: String, alamat: String, quantity: String, total_price: String, status: String, status_description: String) {
-        val client = ApiConfig.getApiService().postPupukOrder(token, name, phone_number, alamat, quantity, total_price, status, status_description)
+    fun postPupukOrder(name: String, phone_number: String, alamat: String, quantity: Int, total_price: Int, status: String) {
+        val client = ApiConfig.getApiService().postPupukOrder(name, phone_number, alamat, quantity, total_price, status)
         client.enqueue(object: Callback<PupukResponse> {
             override fun onResponse(
                 call: Call<PupukResponse>,
@@ -120,10 +120,6 @@ class DataSource private constructor(private val pref: UserPreferences) {
 
     suspend fun userLogin() {
         pref.login()
-    }
-
-    suspend fun userLogout() {
-        pref.logout()
     }
 
     companion object {
