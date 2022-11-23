@@ -46,8 +46,7 @@
             android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.pickup.PickUpActivity"
-            android:exported="false"
-            android:parentActivityName=".ui.MainActivity" />
+            android:exported="false" />
         <activity
             android:name=".ui.informasi.InformationActivity"
             android:exported="false"

@@ -30,7 +30,6 @@ class PickUpActivity : AppCompatActivity() {
         setContentView(binding.root)
         factory = ViewModelFactory.getInstance(this)
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = "Penjemputan Sampah"
 
         binding.apply {

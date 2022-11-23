@@ -287,7 +287,8 @@
     <string name="alamat_lengkap">Alamat Lengkap</string>
     <string name="jumlah_beli">Jumlah Beli</string>
     <string name="total">Total</string>
-    <string name="konfirmasi_ke_whatsapp">Konfirmasi ke WhatsApp</string>
+    <string name="konfirmasi_ke_whatsapp1">Konfirmasi ke WhatsApp 1</string>
+    <string name="konfirmasi_ke_whatsapp2">Konfirmasi ke WhatsApp 2</string>
     <string name="whatsapp_logo">Whatsapp Logo</string>
     <string name="pembelian_pupuk">Pembelian Pupuk</string>
     <string name="pupuk_500g_seharga_rp_5_000">Pupuk 500 gram seharga Rp 5.000</string>

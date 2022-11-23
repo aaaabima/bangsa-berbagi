@@ -35,12 +35,15 @@ class CompostActivity : AppCompatActivity() {
     }
 
     private fun implementButton() {
-        binding.btnWhatsapp.setOnClickListener {
-            postOrder()
+        binding.btnWhatsapp1.setOnClickListener {
+            postOrder(1)
+        }
+        binding.btnWhatsapp2.setOnClickListener {
+            postOrder(2)
         }
     }
 
-    private fun postOrder() {
+    private fun postOrder(num: Int) {
         val nama = binding.addEdNama.text.toString().trim()
         val phone = binding.addEdNotelp.text.toString().trim()
         val address = binding.addEdAlamat.text.toString().trim()
@@ -60,14 +63,31 @@ class CompostActivity : AppCompatActivity() {
             model.pupuk.observe(this) {response ->
                 if(response.message == "Data has been inserted successfully"){
                     Toast.makeText(this@CompostActivity, "Data telah berhasil dimasukkan.", Toast.LENGTH_SHORT).show()
-                    sendToWhatsapp()
+                    when(num) {
+                        1->sendToWhatsappFirst()
+                        2->sendToWhatsappSecond()
+                    }
                 }
             }
         }
     }
 
-    private fun sendToWhatsapp() {
+    private fun sendToWhatsappFirst() {
         val contact = "+6282316720907"
+        val name = binding.addEdNama.text.toString()
+        val notelp = binding.addEdNotelp.text.toString()
+        val alamat = binding.addEdAlamat.text.toString()
+        val pupuk = findViewById<RadioButton>(binding.rgJenisCompost.checkedRadioButtonId).text.toString()
+        val formattedText = "Nama: $name\nNomor Telepon: $notelp\nAlamat: $alamat\nPesanan: $pupuk"
+
+        val intent = Intent()
+        intent.action = Intent.ACTION_VIEW
+        intent.data = Uri.parse("http://api.whatsapp.com/send?phone=$contact&text=$formattedText")
+        startActivity(intent)
+    }
+
+    private fun sendToWhatsappSecond() {
+        val contact = "+6289648220154"
         val name = binding.addEdNama.text.toString()
         val notelp = binding.addEdNotelp.text.toString()
         val alamat = binding.addEdAlamat.text.toString()
